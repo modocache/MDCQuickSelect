@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA515D7E192D983A00BA00F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA515D7D192D983A00BA00F8 /* Foundation.framework */; };
+		DA515D83192D983A00BA00F8 /* MDCQuickSelect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA515D82192D983A00BA00F8 /* MDCQuickSelect.h */; };
+		DA515D8C192D983A00BA00F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA515D8B192D983A00BA00F8 /* XCTest.framework */; };
+		DA515D8D192D983A00BA00F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA515D7D192D983A00BA00F8 /* Foundation.framework */; };
+		DA515D8F192D983A00BA00F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA515D8E192D983A00BA00F8 /* UIKit.framework */; };
+		DA515D92192D983A00BA00F8 /* libMDCQuickSelect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA515D7A192D983A00BA00F8 /* libMDCQuickSelect.a */; };
+		DA515D98192D983A00BA00F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA515D96192D983A00BA00F8 /* InfoPlist.strings */; };
+		DA515D9A192D983A00BA00F8 /* NSArray+MDCQuickSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA515D99192D983A00BA00F8 /* NSArray+MDCQuickSelectTests.m */; };
+		DA515DA5192D986200BA00F8 /* NSArray+MDCQuickSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = DA515DA4192D986200BA00F8 /* NSArray+MDCQuickSelect.m */; };
+		DA515DA7192DB24F00BA00F8 /* NSArray+MDCQuickSelectBenchmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = DA515DA6192DB24F00BA00F8 /* NSArray+MDCQuickSelectBenchmarks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA515D90192D983A00BA00F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA515D72192D983A00BA00F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA515D79192D983A00BA00F8;
+			remoteInfo = MDCQuickSelect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA515D78192D983A00BA00F8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DA515D83192D983A00BA00F8 /* MDCQuickSelect.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA515D7A192D983A00BA00F8 /* libMDCQuickSelect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMDCQuickSelect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA515D7D192D983A00BA00F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA515D81192D983A00BA00F8 /* MDCQuickSelect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDCQuickSelect-Prefix.pch"; sourceTree = "<group>"; };
+		DA515D82192D983A00BA00F8 /* MDCQuickSelect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCQuickSelect.h; sourceTree = "<group>"; };
+		DA515D8A192D983A00BA00F8 /* MDCQuickSelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDCQuickSelectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA515D8B192D983A00BA00F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA515D8E192D983A00BA00F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DA515D95192D983A00BA00F8 /* MDCQuickSelectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MDCQuickSelectTests-Info.plist"; sourceTree = "<group>"; };
+		DA515D97192D983A00BA00F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA515D99192D983A00BA00F8 /* NSArray+MDCQuickSelectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MDCQuickSelectTests.m"; sourceTree = "<group>"; };
+		DA515DA3192D986200BA00F8 /* NSArray+MDCQuickSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MDCQuickSelect.h"; sourceTree = "<group>"; };
+		DA515DA4192D986200BA00F8 /* NSArray+MDCQuickSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MDCQuickSelect.m"; sourceTree = "<group>"; };
+		DA515DA6192DB24F00BA00F8 /* NSArray+MDCQuickSelectBenchmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MDCQuickSelectBenchmarks.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA515D77192D983A00BA00F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA515D7E192D983A00BA00F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA515D87192D983A00BA00F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA515D8C192D983A00BA00F8 /* XCTest.framework in Frameworks */,
+				DA515D8F192D983A00BA00F8 /* UIKit.framework in Frameworks */,
+				DA515D92192D983A00BA00F8 /* libMDCQuickSelect.a in Frameworks */,
+				DA515D8D192D983A00BA00F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA515D71192D983A00BA00F8 = {
+			isa = PBXGroup;
+			children = (
+				DA515D7F192D983A00BA00F8 /* MDCQuickSelect */,
+				DA515D93192D983A00BA00F8 /* MDCQuickSelectTests */,
+				DA515D7C192D983A00BA00F8 /* Frameworks */,
+				DA515D7B192D983A00BA00F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA515D7B192D983A00BA00F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA515D7A192D983A00BA00F8 /* libMDCQuickSelect.a */,
+				DA515D8A192D983A00BA00F8 /* MDCQuickSelectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA515D7C192D983A00BA00F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA515D7D192D983A00BA00F8 /* Foundation.framework */,
+				DA515D8B192D983A00BA00F8 /* XCTest.framework */,
+				DA515D8E192D983A00BA00F8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA515D7F192D983A00BA00F8 /* MDCQuickSelect */ = {
+			isa = PBXGroup;
+			children = (
+				DA515D82192D983A00BA00F8 /* MDCQuickSelect.h */,
+				DA515DA3192D986200BA00F8 /* NSArray+MDCQuickSelect.h */,
+				DA515DA4192D986200BA00F8 /* NSArray+MDCQuickSelect.m */,
+				DA515D80192D983A00BA00F8 /* Supporting Files */,
+			);
+			path = MDCQuickSelect;
+			sourceTree = "<group>";
+		};
+		DA515D80192D983A00BA00F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA515D81192D983A00BA00F8 /* MDCQuickSelect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA515D93192D983A00BA00F8 /* MDCQuickSelectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA515D99192D983A00BA00F8 /* NSArray+MDCQuickSelectTests.m */,
+				DA515DA6192DB24F00BA00F8 /* NSArray+MDCQuickSelectBenchmarks.m */,
+				DA515D94192D983A00BA00F8 /* Supporting Files */,
+			);
+			path = MDCQuickSelectTests;
+			sourceTree = "<group>";
+		};
+		DA515D94192D983A00BA00F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA515D95192D983A00BA00F8 /* MDCQuickSelectTests-Info.plist */,
+				DA515D96192D983A00BA00F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA515D79192D983A00BA00F8 /* MDCQuickSelect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA515D9D192D983A00BA00F8 /* Build configuration list for PBXNativeTarget "MDCQuickSelect" */;
+			buildPhases = (
+				DA515D76192D983A00BA00F8 /* Sources */,
+				DA515D77192D983A00BA00F8 /* Frameworks */,
+				DA515D78192D983A00BA00F8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDCQuickSelect;
+			productName = MDCQuickSelect;
+			productReference = DA515D7A192D983A00BA00F8 /* libMDCQuickSelect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA515D89192D983A00BA00F8 /* MDCQuickSelectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA515DA0192D983A00BA00F8 /* Build configuration list for PBXNativeTarget "MDCQuickSelectTests" */;
+			buildPhases = (
+				DA515D86192D983A00BA00F8 /* Sources */,
+				DA515D87192D983A00BA00F8 /* Frameworks */,
+				DA515D88192D983A00BA00F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA515D91192D983A00BA00F8 /* PBXTargetDependency */,
+			);
+			name = MDCQuickSelectTests;
+			productName = MDCQuickSelectTests;
+			productReference = DA515D8A192D983A00BA00F8 /* MDCQuickSelectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA515D72192D983A00BA00F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = DA515D75192D983A00BA00F8 /* Build configuration list for PBXProject "MDCQuickSelect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA515D71192D983A00BA00F8;
+			productRefGroup = DA515D7B192D983A00BA00F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA515D79192D983A00BA00F8 /* MDCQuickSelect */,
+				DA515D89192D983A00BA00F8 /* MDCQuickSelectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA515D88192D983A00BA00F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA515D98192D983A00BA00F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA515D76192D983A00BA00F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA515DA5192D986200BA00F8 /* NSArray+MDCQuickSelect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA515D86192D983A00BA00F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA515D9A192D983A00BA00F8 /* NSArray+MDCQuickSelectTests.m in Sources */,
+				DA515DA7192DB24F00BA00F8 /* NSArray+MDCQuickSelectBenchmarks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA515D91192D983A00BA00F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA515D79192D983A00BA00F8 /* MDCQuickSelect */;
+			targetProxy = DA515D90192D983A00BA00F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA515D96192D983A00BA00F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA515D97192D983A00BA00F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA515D9B192D983A00BA00F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA515D9C192D983A00BA00F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA515D9E192D983A00BA00F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MDCQuickSelect.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCQuickSelect/MDCQuickSelect-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DA515D9F192D983A00BA00F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MDCQuickSelect.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCQuickSelect/MDCQuickSelect-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA515DA1192D983A00BA00F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCQuickSelect/MDCQuickSelect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MDCQuickSelectTests/MDCQuickSelectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DA515DA2192D983A00BA00F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCQuickSelect/MDCQuickSelect-Prefix.pch";
+				INFOPLIST_FILE = "MDCQuickSelectTests/MDCQuickSelectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA515D75192D983A00BA00F8 /* Build configuration list for PBXProject "MDCQuickSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA515D9B192D983A00BA00F8 /* Debug */,
+				DA515D9C192D983A00BA00F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA515D9D192D983A00BA00F8 /* Build configuration list for PBXNativeTarget "MDCQuickSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA515D9E192D983A00BA00F8 /* Debug */,
+				DA515D9F192D983A00BA00F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA515DA0192D983A00BA00F8 /* Build configuration list for PBXNativeTarget "MDCQuickSelectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA515DA1192D983A00BA00F8 /* Debug */,
+				DA515DA2192D983A00BA00F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA515D72192D983A00BA00F8 /* Project object */;
+}

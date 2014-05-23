@@ -1,0 +1,3 @@
+language: objective-c
+script: xcodebuild -project MDCQuickSelect.xcodeproj -scheme MDCQuickSelect -sdk iphonesimulator clean test
+
